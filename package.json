@@ -1,0 +1,25 @@
+{
+  "name": "a3-packet-sniffer",
+  "version": "1.0.0",
+  "description": "Tool written in NodeJS to sniff and log packets sent to and from an A3 MMORPG server for A3 development purpose",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberinferno/a3-packet-sniffer.git"
+  },
+  "keywords": [
+    "A3"
+  ],
+  "author": "cyberinferno",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cyberinferno/a3-packet-sniffer/issues"
+  },
+  "homepage": "https://github.com/cyberinferno/a3-packet-sniffer#readme",
+  "dependencies": {
+    "pcap-parser": "^0.2.1"
+  }
+}
